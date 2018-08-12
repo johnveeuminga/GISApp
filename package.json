@@ -1,0 +1,36 @@
+{
+  "name": "AbraRiverBasinApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "@google/maps": "^0.5.5",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react-native": "^4.0.0",
+    "native-base": "^2.7.2",
+    "react": "16.4.1",
+    "react-native": "^0.55.4",
+    "react-native-google-places": "^2.5.2",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.10.0",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "redux": "^4.0.0",
+    "title-case": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

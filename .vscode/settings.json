@@ -1,0 +1,5 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+}
